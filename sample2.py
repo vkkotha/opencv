@@ -59,7 +59,7 @@ def main():
     global img_original
     global img_corrected
     global img_gamma_corrected
-    video_capture = cv.VideoCapture("rtsp://control4:inner2sock@192.168.1.70/Streaming/Channels/101")
+    video_capture = cv.VideoCapture("rtsp://user:pass@192.168.1.70/Streaming/Channels/101")
 
     # cv.namedWindow('Video', cv.WINDOW_AUTOSIZE)
     cv.namedWindow('Brightness and contrast adjustments', cv.WINDOW_AUTOSIZE)
